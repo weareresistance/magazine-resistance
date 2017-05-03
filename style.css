@@ -1,0 +1,156 @@
+a {
+    text-decoration: none !important;
+}
+
+.menu-boot {
+    margin: 0!important;
+    padding: 0!important;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.tag {
+    background: #000;
+    color: #fff;
+    padding: 3px 7px;
+    margin: 5px;
+}
+
+.menu-boot h3, .menu-boot h4 {
+    margin: 0;
+    color: #fff;
+    width: 70%;
+}
+
+.ciencias-menu {
+    background-image: url(img/ciencias.jpg);
+}
+
+.ciencias-menu h3, .categoria-ciencias {
+    background: #2c79e5;
+}
+
+.cultura-menu {
+    background-image: url(img/cultura.jpg);
+}
+
+.cultura-menu h3, .categoria-cultura {
+    background: #f9a64a;
+}
+
+.entrevistas-menu {
+    background-image: url(img/entrevistas.jpg);
+}
+
+.entrevistas-menu h3, .categoria-entrevistas {
+    background: #a2ce62;
+}
+
+.reportagens-menu {
+    background-image: url(img/reportagens.jpg);
+}
+
+.reportagens-menu h3, .categoria-reportagens {
+    background: #df5951;
+}
+
+.cronicas-menu {
+    background-image: url(img/cronicas.jpg);
+}
+
+.cronicas-menu h3, .categoria-cronicas {
+    background: #00b3b9;
+}
+
+.artigo {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.destaque {
+    text-align: center;
+    color: coral;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.autor {
+    color: #df5951;
+    font-weight: bold;
+    text-align: right;
+}
+
+.artigo h2, .artigo h6 {
+    color: #fff;
+}
+
+.artigo h6 {
+    text-align: right;
+}
+
+.ciencias-artigo {
+    background-color: #0e39c9;
+}
+
+.cultura-artigo {
+    background-color: #f98605;
+}
+
+.entrevistas-artigo {
+    background-color: #4dcc26;
+}
+
+.reportagens-artigo {
+    background-color: #da2036;
+}
+
+.cronicas-artigo {
+    background-color: #43edf2;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+.artigos-menu {
+    background-color: #333;
+    height: inherit;
+    padding: 10px 0 !important;
+    text-align: center;
+}
+
+.texto, .redes-sociais {
+    padding: 40px;
+}
+
+#facebook {
+    background: #151572;
+    color: #fff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.login-form {
+    margin: 5px 15px;
+}
+
+.data {
+    color: #ccc;
+}
+
+.user {
+    margin: 0px;
+}
+
+.titulo {
+    border-bottom: 3px solid #aaa;
+}
