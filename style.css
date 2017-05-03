@@ -7,8 +7,8 @@ a {
     padding: 0!important;
     height: 150px;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
+    min-width: 20%;
 }
 
 .tag {
@@ -25,6 +25,7 @@ a {
 }
 
 .ciencias-menu {
+    background-size: cover;
     background-image: url(img/ciencias.jpg);
 }
 
@@ -33,6 +34,7 @@ a {
 }
 
 .cultura-menu {
+    background-size: cover;
     background-image: url(img/cultura.jpg);
 }
 
@@ -41,6 +43,7 @@ a {
 }
 
 .entrevistas-menu {
+    background-size: cover;
     background-image: url(img/entrevistas.jpg);
 }
 
@@ -49,6 +52,7 @@ a {
 }
 
 .reportagens-menu {
+    background-size: cover;
     background-image: url(img/reportagens.jpg);
 }
 
@@ -57,6 +61,7 @@ a {
 }
 
 .cronicas-menu {
+    background-size: cover;
     background-image: url(img/cronicas.jpg);
 }
 
@@ -65,7 +70,7 @@ a {
 }
 
 .artigo {
-    height: 200px;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -86,6 +91,8 @@ a {
 
 .artigo h2, .artigo h6 {
     color: #fff;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .artigo h6 {
@@ -140,7 +147,7 @@ footer {
 }
 
 .login-form {
-    margin: 5px 15px;
+    margin: 5px auto;
 }
 
 .data {
@@ -153,4 +160,17 @@ footer {
 
 .titulo {
     border-bottom: 3px solid #aaa;
+}
+
+.fazer-comentario {
+    padding-top: 5px;
+}
+
+.login-comentario {
+    margin-top: 5px;
+}
+
+.sub h1 {
+    text-align: center;
+    margin: 40px auto !important;
 }
